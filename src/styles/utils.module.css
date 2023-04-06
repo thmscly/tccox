@@ -4,6 +4,7 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-align: center;
 }
 
 .headingXl {
@@ -12,17 +13,20 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+  text-align: center;
 }
 
 .headingLg {
   font-size: 1.5rem;
   line-height: 1.4;
   margin: 1rem 0;
+  text-align: center;
 }
 
 .headingMd {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   line-height: 1.5;
+  text-align: center;
 }
 
 .borderCircle {
@@ -38,6 +42,8 @@
 }
 
 .list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   list-style: none;
   padding: 0;
   margin: 0;
