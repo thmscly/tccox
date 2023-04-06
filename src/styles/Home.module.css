@@ -26,12 +26,10 @@
   gap: 0.5rem;
 }
 
-.description p {
+.description h2 :global {
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
 
@@ -79,6 +77,17 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+}
+
+.cursor :global {
+  height: 1.5rem;
+  width: 0.85rem;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
 }
 
 /* .center::before {
