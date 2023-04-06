@@ -25,7 +25,6 @@ export default function Home({ allPostsData }) {
         <div className={styles.cursor} />
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
 
         <div className={styles.grid}>
           <Link href="about" className={styles.card}>
@@ -37,35 +36,26 @@ export default function Home({ allPostsData }) {
             </p>
           </Link>
 
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="projects" className={styles.card}>
             <h2>
               My Work <span>-&gt;</span>
             </h2>
             <p>
-              Take a look at muy projects and some of what&nbsp;I can do!
+              Some of my projects and what I&apos;ve been enoying working on.
             </p>
-          </a>
+          </Link>
 
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="contact" className={styles.card}>
             <h2>
               Contact <span>-&gt;</span>
             </h2>
             <p>
               Reach out and touch me...on social media.
             </p>
-          </a>
-        </div>
+          </Link>
 
+        </div>
+        {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
       </section>
     </Layout>
   );
