@@ -23,16 +23,25 @@ export default function Projects() {
                     </p>
                 </Link>
 
-                <Link href="projects" className={styles.card}>
+                <Link href="https://github.com/thmscly/tccox" rel="noopener noreferrer" target="_blank" className={styles.card}>
                     <h2>
                         Source Code <span>-&gt;</span>
                     </h2>
                     <p>
-                        The source code for the very web app you&apos;re looking at now. A link to the repo.
+                        The source code for the very web app you&apos;re looking at now.
                     </p>
                 </Link>
 
-                <Link href="contact" className={styles.card}>
+                <Link href="todo" className={styles.card}>
+                    <h2>
+                        To-do App <span>-&gt;</span>
+                    </h2>
+                    <p>
+                        A to-do CRUD app built with React&apos;s useReducer Hook
+                    </p>
+                </Link>
+
+                <Link href="https://github.com/thmscly/katie-devault-website" rel="noopener noreferrer" target="_blank" className={styles.card}>
                     <h2>
                         Katie DeVault Consulting <span>-&gt;</span>
                     </h2>

@@ -30,7 +30,7 @@ export default function Layout({ children, home }) {
                     <>
                         <Image
                             priority
-                            src="/images/profile.jpg"
+                            src="/images/profilepic.jpeg"
                             className={utilStyles.borderCircle}
                             height={144}
                             width={144}
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
                         <Link href="/">
                             <Image
                                 priority
-                                src="/images/profile.jpg"
+                                src="/images/profilepic.jpeg"
                                 className={utilStyles.borderCircle}
                                 height={108}
                                 width={108}
@@ -58,7 +58,7 @@ export default function Layout({ children, home }) {
                     </>
                 )}
             </header>
-            <main>{children}</main>
+            <main className={utilStyles.main}>{children}</main>
             {!home && (
                 <div className={styles.backToHome}>
                     <Link href="/">← Back to home</Link>
