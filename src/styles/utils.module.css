@@ -1,8 +1,7 @@
 .main {
   display: grid;
-  grid-auto-colums: 1fr;
-  justify-content: start;
-  max-width: 100%;
+  grid-auto-columns: auto;
+  justify-content: center;
 }
 
 .heading2Xl {
