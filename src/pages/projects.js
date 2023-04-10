@@ -50,14 +50,14 @@ export default function Projects() {
                     </p>
                 </Link>
 
-                <Link href="contact" className={styles.card}>
+                {/* <Link href="contact" className={styles.card}>
                     <h2>
                         Spaceship <span>-&gt;</span>
                     </h2>
                     <p>
                         Click here to launch a hand-built game that uses React state to keep track of your progress.
                     </p>
-                </Link>
+                </Link> */}
 
             </div>
             <ul className={utilStyles.list}></ul>
