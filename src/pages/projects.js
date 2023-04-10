@@ -19,8 +19,9 @@ export default function Projects() {
                         Meta Certification Capstone <span>-&gt;</span>
                     </h2>
                     <p>
-                        A stateful React App to manage booking for a fictional restaurant. Capstone project for Meta&apos;s Front-End Developer Professional Certificate.
+                        A React App managing booking for a fictional restaurant. Capstone project for Meta&apos;s Front-End Developer Professional Certificate.
                     </p>
+                    <em><p>Score: 9/9</p></em>
                 </Link>
 
                 <Link href="https://github.com/thmscly/tccox" rel="noopener noreferrer" target="_blank" className={styles.card}>
@@ -37,16 +38,16 @@ export default function Projects() {
                         To-do App <span>-&gt;</span>
                     </h2>
                     <p>
-                        A to-do CRUD app built with React&apos;s useReducer Hook
+                        I got a baby. How else am I supposed to keep up? Built using React&apos;s useRedcuer hook.
                     </p>
                 </Link>
 
                 <Link href="https://github.com/thmscly/katie-devault-website" rel="noopener noreferrer" target="_blank" className={styles.card}>
                     <h2>
-                        Katie DeVault Consulting <span>-&gt;</span>
+                        Katie DeVault <span>-&gt;</span>
                     </h2>
                     <p>
-                        A professional React site built for my sister and her consulting business.
+                        A professional React template built for a Nashville-based consultant.
                     </p>
                 </Link>
 
