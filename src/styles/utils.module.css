@@ -49,14 +49,19 @@
 
 .list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   list-style: none;
   padding: 0;
-  margin: 0;
+  place-items: center;
+  gap: 1rem;
+  background: rgba(100, 100, 100, 0.3);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .listItem {
   margin: 0 0 1.25rem;
+  font-size: 1.15rem;
 }
 
 .lightText {
