@@ -59,7 +59,7 @@ export default function TaskApp() {
 
     return (
         <>
-            <h1>Stuff I Gotta Do</h1>
+            <h2>Stuff I Gotta Do</h2>
             <AddTask
                 onAddTask={handleAddTask}
             />

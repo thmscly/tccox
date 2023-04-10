@@ -1,3 +1,4 @@
+import Footer from '@/components/layout/footer'
 import '@/styles/globals.css'
 import { Roboto_Mono } from 'next/font/google'
 
@@ -10,5 +11,6 @@ export default function App({ Component, pageProps }) {
   return (
     <main className={font.className}>
       <Component {...pageProps} />
+      <Footer />
     </main>)
 }

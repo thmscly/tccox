@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
+import Layout, { siteTitle } from '../components/layout/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '@/lib/posts';
 import styles from '@/styles/Home.module.css'
@@ -22,39 +22,37 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingLg}>
         <p>Meta&reg;-Certified Front-End Engineer{' '}</p>
-        <div className={styles.cursor} />
+        {/* <div className={styles.cursor} /> */}
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      <section className={`${styles.homeGrid}`}>
 
-        <div className={styles.grid}>
-          <Link href="about" className={styles.card}>
-            <h2>
-              About <span>-&gt;</span>
-            </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
-          </Link>
+        <Link href="about" className={styles.homeCard}>
+          <h2>
+            About <span>-&gt;</span>
+          </h2>
+          <p>
+            A little more about who I am and my journey into Tech.
+          </p>
+        </Link>
 
-          <Link href="projects" className={styles.card}>
-            <h2>
-              My Work <span>-&gt;</span>
-            </h2>
-            <p>
-              Some of my projects and what I&apos;ve been enoying working on.
-            </p>
-          </Link>
+        <Link href="projects" className={styles.homeCard}>
+          <h2>
+            My Work <span>-&gt;</span>
+          </h2>
+          <p>
+            Some of my projects and what I&apos;ve been enoying working on.
+          </p>
+        </Link>
 
-          <Link href="contact" className={styles.card}>
-            <h2>
-              Contact <span>-&gt;</span>
-            </h2>
-            <p>
-              Reach out and touch me...on social media.
-            </p>
-          </Link>
+        <Link href="contact" className={styles.homeCard}>
+          <h2>
+            Contact <span>-&gt;</span>
+          </h2>
+          <p>
+            Reach out and touch me...on social media.
+          </p>
+        </Link>
 
-        </div>
         {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
       </section>
     </Layout>

@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  gap: 1.5em;
+}
+
+.main h1 {
+  text-align: center;
+}

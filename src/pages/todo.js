@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Head from 'next/head';
-import Layout from '../components/layout';
-import TaskApp from '@/components/toDoList/main';
+import Layout from '../components/layout/layout';
+import TaskApp from '@/components/toDoList/taskApp';
+import todoStyles from '../styles/Todo.module.css';
 
 export default function Todo() {
     return (
@@ -10,8 +11,9 @@ export default function Todo() {
             <Head>
                 <title>To-do App</title>
             </Head>
-            <main>
+            <main className={todoStyles.main}>
                 <h1>To-Do</h1>
+                <TaskApp />
                 <h2>
                     This is built using React&apos;s <a href="https://react.dev/reference/react/useReducer" target="_blank">useReducer Hook.</a>
 
@@ -21,7 +23,6 @@ export default function Todo() {
                     You use it for...you know...whatever.
                 </p>
             </main>
-            <TaskApp />
         </Layout>
     );
 }
