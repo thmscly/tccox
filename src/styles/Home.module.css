@@ -45,10 +45,10 @@
   justify-items: center;
   align-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.25rem;
   margin-top: 1.5rem;
   /* width: 25%; */
-  width: 100%;
+  width: 100;
 }
 
 .homeCard {

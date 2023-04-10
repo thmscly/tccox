@@ -10,6 +10,7 @@ export default function Projects() {
         <Layout>
             <Head>
                 <title>Projects</title>
+
             </Head>
             <h1>Some of My Work</h1>
             <hr />

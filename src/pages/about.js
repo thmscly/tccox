@@ -21,8 +21,8 @@ export default function About() {
             </div>
             <span className={utilStyles.aboutPara}>
                 <div>
-                    <p>Hi, I&apos;m T.C. Cox. I&apos;m a <em>Front-End Engineer</em> ,an Eagle Scout, a drummer, a movie-lover, and all-around nerd who&apos;s just finished <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a></em>.</p>
-                    <p>I&apos;ve been working hard over the past year to becoming <em>Software Engineer</em>, and have learned a ton, but as anyone in dev will tell you, have an infinity left to master.</p>
+                    <p>I&apos;m a <em>Front-End Engineer</em> ,an Eagle Scout, a drummer, movie-lover, and all-around nerd and <span className={utilStyles.bigText}>I just graduated from <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a></em>.</span></p>
+                    <p>I&apos;ve been working hard over the past year becoming <em>Software Engineer</em>, and have learned a ton, but as anyone in dev will tell you, have an infinity left to master.</p>
                     <div>
                         <h3 className={utilStyles.headingLg}>My Stack:</h3>
                         <ul className={utilStyles.list}>

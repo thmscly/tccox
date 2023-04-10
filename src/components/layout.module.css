@@ -1,5 +1,5 @@
 .container {
-  max-width: 52rem;
+  max-width: 60rem;
   padding: 0 1rem;
   margin: 0rem auto 6rem;
   display: grid;
@@ -14,4 +14,33 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.nameHeader {
+  background: linear-gradient(
+    -45deg,
+    #25a34a,
+    rgba(175, 255, 175, 0.7),
+    #25a34a
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  font-size: 2rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

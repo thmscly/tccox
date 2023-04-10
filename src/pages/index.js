@@ -23,7 +23,9 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingLg}>
         <p>Meta&reg;-Certified Front-End Engineer{' '}</p>
         {/* <div className={styles.cursor} /> */}
+
       </section>
+
       <section className={`${styles.homeGrid}`}>
 
         <Link href="about" className={styles.homeCard}>
@@ -52,7 +54,6 @@ export default function Home({ allPostsData }) {
             Reach out and touch me...on social media.
           </p>
         </Link>
-
         {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
       </section>
     </Layout>
