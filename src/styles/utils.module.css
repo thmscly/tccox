@@ -65,4 +65,23 @@
 
 .footer {
   margin-bottom: 0;
+  margin-left: 2rem;
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 1rem;
+  place-self: center;
+  gap: 1.5rem;
+}
+
+.subHead {
+  display: grid;
+  place-self: center;
+  margin-bottom: 0.75rem;
 }

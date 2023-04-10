@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from '../layout.module.css';
 import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link';
-import Footer from './footer';
+import NavBar from './navBar';
 
 const name = 'T.C. Cox';
 export const siteTitle = 'T.C. Cox: Front-End Engineer';
@@ -11,6 +11,7 @@ export const siteTitle = 'T.C. Cox: Front-End Engineer';
 export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
+            <NavBar />
             <Head>
                 <link rel="icon" href="/favicon.ico" />
                 <meta
@@ -41,21 +42,6 @@ export default function Layout({ children, home }) {
                     </>
                 ) : (
                     <>
-                        <Link href="/">
-                            <Image
-                                priority
-                                src="/images/profilepic.jpeg"
-                                className={utilStyles.borderCircle}
-                                height={108}
-                                width={108}
-                                alt=""
-                            />
-                        </Link>
-                        <h2 className={utilStyles.headingLg}>
-                            <Link href="/" className={utilStyles.colorInherit}>
-                                {name}
-                            </Link>
-                        </h2>
                     </>
                 )}
             </header>
