@@ -3,19 +3,46 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Layout from '../components/layout/layout';
 import styles from '@/styles/Home.module.css'
+import utilStyles from '@/styles/utils.module.css'
+
+const title = "Contact"
 
 export default function Contact() {
     return (
-        <Layout>
+        <Layout contact>
             <Head>
-                <title>Contact</title>
+                <title>{title}</title>
             </Head>
-            <h1>Thomas Cox:</h1>
-            <h2>
-                A short story.
-            </h2>
-            <h3>Hello, there.</h3>
-            <iframe src="https://giphy.com/embed/xTiIzJSKB4l7xTouE8" width="240" height="108" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
+            <section className={utilStyles.headingXl}>
+                <h1>{title}</h1>
+                {/* <div className={styles.cursor} /> */}
+                <hr />
+                <h6>I&apos;m always happy to talk code, job opportunities, or even Lord of the Rings (if you have a few hours...)</h6>
+            </section>
+            <section className={`${styles.homeGrid}`}>
+
+                <Link href="https://github.com/thmscly" rel="noopener noreferrer" target="_blank" className={styles.homeCard}>
+                    <h2>
+                        GitHub <span>-&gt;</span>
+                    </h2>
+
+                </Link>
+
+                <Link href="https://www.linkedin.com/in/thomas-tc-cox/" rel="noopener noreferrer" target="_blank" className={styles.homeCard}>
+                    <h2>
+                        LinkedIn <span>-&gt;</span>
+                    </h2>
+
+                </Link>
+
+                <Link href="https://discord.com/channels/@T.C.#3573" rel="noopener noreferrer" target="_blank" className={styles.homeCard}>
+                    <h2>
+                        Discord <span>-&gt;</span>
+                    </h2>
+
+                </Link>
+                {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
+            </section>
         </Layout>
     );
 }

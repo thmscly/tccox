@@ -17,7 +17,7 @@ export default function Projects() {
             <div className={styles.grid}>
                 <Link href="about" className={styles.card}>
                     <h2>
-                        Meta Certification Capstone <span>-&gt;</span>
+                        Meta Capstone <span>-&gt;</span>
                     </h2>
                     <p>
                         A React App managing booking for a fictional restaurant. Capstone project for Meta&apos;s Front-End Developer Professional Certificate.

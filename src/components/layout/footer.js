@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className={utilStyles.footer}>
             <div>
-                <p>©{new Date().getFullYear()} Thomas Cox. All rights reserved.</p>
+                <p>©{new Date().getFullYear()} Thomas &quot;T.C.&quot; Cox. All rights reserved.</p>
             </div>
         </footer>
     );
