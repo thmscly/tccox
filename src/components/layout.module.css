@@ -17,12 +17,7 @@
 }
 
 .nameHeader {
-  background: linear-gradient(
-    -45deg,
-    #25a34a,
-    rgba(175, 255, 175, 0.7),
-    #25a34a
-  );
+  background: linear-gradient(-45deg, #25a34a, rgba(75, 225, 175, 0.6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 400% 400%;
