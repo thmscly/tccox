@@ -85,3 +85,8 @@
   place-self: center;
   margin-bottom: 0.75rem;
 }
+
+.aboutPara p {
+  text-indent: 4rem;
+  margin: 1.25rem 0 1.25rem 0;
+}
