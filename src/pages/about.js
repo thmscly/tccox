@@ -5,7 +5,6 @@ import Layout from '../components/layout/layout';
 import utilStyles from '../styles/utils.module.css'
 
 const techs = ['React', 'JavaScript', 'JSX', 'Next.js', 'CSS/HTML', 'Tailwind CSS', 'UI/UX Design', 'Figma']
-const tier2Techs = ['Laravel', 'PHP', 'Java',]
 
 export default function About() {
     return (
@@ -17,14 +16,13 @@ export default function About() {
                 About Me
             </h1>
             <div className={utilStyles.subHead}>
-                <iframe src="https://giphy.com/embed/xTiIzJSKB4l7xTouE8" width="240" height="108" frameBorder="0" class="giphy-embed" allowfullscreen=""></iframe>
+                <iframe src="https://giphy.com/embed/xTiIzJSKB4l7xTouE8" width="240" height="108" ></iframe>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
             </div>
             <span className={utilStyles.aboutPara}>
                 <div>
-                    <p>Hi, I&apos;m T.C. Cox. I&apos;m a <em>Front-End Engineer</em>.</p>
-                    <p>I&apos;m a new dad who&apos;s just finished <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a></em>.</p>
-                    <p>I&apos;m an Eagle Scout, a drummer, a movie-lover, and a new dad.</p>
-                    <p>I have a BS in Psychology from the University of Tennessee at Chattanooga. I&apos;m currently working in healthcare as a pediatric Certified Medical Assistant.</p>
+                    <p>Hi, I&apos;m T.C. Cox. I&apos;m a <em>Front-End Engineer</em> ,an Eagle Scout, a drummer, a movie-lover, and all-around nerd who&apos;s just finished <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a></em>.</p>
+                    <p>I&apos;ve been working hard over the past year to becoming <em>Software Engineer</em>, and have learned a ton, but as anyone in dev will tell you, have an infinity left to master.</p>
                     <div>
                         <h3 className={utilStyles.headingLg}>My Stack:</h3>
                         <ul className={utilStyles.list}>
@@ -33,7 +31,7 @@ export default function About() {
                             })}
                         </ul>
                     </div>
-                    <p>I&apos;ve been working over the past year to become a <em>Software Engineer</em>, and have learned a ton, but as anyone will tell you, have an infiinity left to learn.</p>
+                    <p>I have a BS in Psychology from the University of Tennessee at Chattanooga. I&apos;m currently working in healthcare as a pediatric Certified Medical Assistant.</p>
                     <p>I&apos;ve always had a deep interest in creative writing, writing and playing music, creative outlets, as well as how things work - including people. So, with wide eyes, a desire to help, and a healthy amount of naivete, I figured early on I would become a psychologist.</p>
                     <p>After 4 years of psychology, I decided I did not, in fact, want to be a psychologist.</p>
 
