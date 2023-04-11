@@ -1,6 +1,6 @@
 .main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-columns: auto;
   justify-content: center;
   align-items: center;
   max-width: 100%;
@@ -9,4 +9,43 @@
 
 .main h1 {
   text-align: center;
+}
+
+.toDoButton {
+  padding: 2% 5% 2% 5%;
+}
+
+.addButton {
+  padding: 0.75%;
+  width: 33%;
+  place-self: center;
+  font-size: large;
+}
+
+.main ul {
+  display: grid;
+  place-self: center;
+  width: 75%;
+  row-gap: 10%;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.main li {
+  width: 100%;
+}
+
+.listLabel {
+  width: 50vw;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr;
+}
+
+.main input {
+  background: rgba(255, 255, 255, 0.93);
+  /* padding: 0.75rem; */
+  height: 2rem;
+  font-size: large;
+  padding: 0.25%;
+  border-radius: 0.25rem;
 }

@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import toDoStyles from '../../styles/Todo.module.css'
+
 
 export default function TaskList({
     tasks,
@@ -34,7 +36,7 @@ function Task({ task, onChange, onDelete }) {
                             text: e.target.value
                         });
                     }} />
-                <button onClick={() => setIsEditing(false)}>
+                <button className={toDoStyles.toDoButton} onClick={() => setIsEditing(false)}>
                     Save
                 </button>
             </>
@@ -43,14 +45,14 @@ function Task({ task, onChange, onDelete }) {
         taskContent = (
             <>
                 {task.text}
-                <button onClick={() => setIsEditing(true)}>
+                <button className={toDoStyles.toDoButton} onClick={() => setIsEditing(true)}>
                     Edit
                 </button>
             </>
         );
     }
     return (
-        <label>
+        <label className={toDoStyles.listLabel}>
             <input
                 type="checkbox"
                 checked={task.done}
@@ -62,9 +64,9 @@ function Task({ task, onChange, onDelete }) {
                 }}
             />
             {taskContent}
-            <button onClick={() => onDelete(task.id)}>
+            <button className={toDoStyles.toDoButton} onClick={() => onDelete(task.id)}>
                 Delete
-            </button>
+            </button >
         </label>
     );
 }
