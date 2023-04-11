@@ -12,8 +12,17 @@
   margin-top: 15%;
 }
 
-.backToHome {
-  margin: 3rem 0 0;
+.emailButton {
+  margin: 2.5rem 0 0;
+  display: grid;
+  place-self: center;
+  align-items: center;
+}
+
+.emailButton button {
+  padding: 1.5rem 4rem 1.5rem 4rem;
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 .nameHeader {

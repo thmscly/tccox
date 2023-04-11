@@ -90,6 +90,32 @@ hr {
   margin: 2rem 0 2rem 0;
 }
 
+button {
+  padding: 1rem 3rem 1rem 3rem;
+  color: inherit;
+  border-radius: 0.5rem;
+  background: #444440;
+  font-family: inherit;
+  transition-duration: 0.4s;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  color: #285;
+  text-decoration: bold;
+  background: #999999;
+  font-weight: bold;
+}
+
+button:active {
+  transform: translateY(4px);
+  background: #999;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

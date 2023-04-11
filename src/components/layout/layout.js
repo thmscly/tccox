@@ -62,8 +62,8 @@ export default function Layout({ children, home }) {
             </header>
             <main className={utilStyles.main}>{children}</main>
             {!home && (
-                <div className={styles.backToHome}>
-                    <Link href="/">← Back to home</Link>
+                <div className={styles.emailButton}>
+                    <a href='mailto:thmscly@gmail.com'> <button>Email</button></a>
                 </div>
             )}
         </div>

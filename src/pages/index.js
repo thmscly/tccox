@@ -30,7 +30,7 @@ export default function Home({ allPostsData }) {
 
         <Link href="about" className={styles.homeCard}>
           <h2>
-            About <span>-&gt;</span>
+            About
           </h2>
           <p>
             A little more about who I am and my journey into Tech.
@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
 
         <Link href="projects" className={styles.homeCard}>
           <h2>
-            My Work <span>-&gt;</span>
+            My Work
           </h2>
           <p>
             Some of my projects and what I&apos;ve been enoying working on.
@@ -48,7 +48,7 @@ export default function Home({ allPostsData }) {
 
         <Link href="contact" className={styles.homeCard}>
           <h2>
-            Contact <span>-&gt;</span>
+            Contact
           </h2>
           <p>
             Reach out and touch me...on social media.

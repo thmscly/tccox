@@ -17,7 +17,7 @@ export default function Projects() {
             <div className={styles.grid}>
                 <Link href="about" className={styles.card}>
                     <h2>
-                        Meta Capstone <span>-&gt;</span>
+                        Meta Capstone
                     </h2>
                     <p>
                         A React App managing booking for a fictional restaurant. Capstone project for Meta&apos;s Front-End Developer Professional Certificate.
@@ -27,7 +27,7 @@ export default function Projects() {
 
                 <Link href="https://github.com/thmscly/tccox" rel="noopener noreferrer" target="_blank" className={styles.card}>
                     <h2>
-                        Source Code <span>-&gt;</span>
+                        Source Code
                     </h2>
                     <p>
                         The source code for the very web app you&apos;re looking at now.
@@ -36,33 +36,33 @@ export default function Projects() {
 
                 <Link href="todo" className={styles.card}>
                     <h2>
-                        To-do App <span>-&gt;</span>
+                        To-do App
                     </h2>
                     <p>
                         I got a baby. How else am I supposed to keep up? Built using React&apos;s useRedcuer hook.
                     </p>
-                </Link>
+                </Link >
 
                 <Link href="https://github.com/thmscly/katie-devault-website" rel="noopener noreferrer" target="_blank" className={styles.card}>
                     <h2>
-                        Katie DeVault <span>-&gt;</span>
+                        Katie DeVault
                     </h2>
                     <p>
                         A professional React template built for a Nashville-based consultant.
                     </p>
-                </Link>
+                </Link >
 
                 {/* <Link href="contact" className={styles.card}>
                     <h2>
-                        Spaceship <span>-&gt;</span>
+                        Spaceship </span>
                     </h2>
                     <p>
                         Click here to launch a hand-built game that uses React state to keep track of your progress.
                     </p>
                 </Link> */}
 
-            </div>
+            </div >
             <ul className={utilStyles.list}></ul>
-        </Layout>
+        </Layout >
     );
 }
