@@ -1,0 +1,10 @@
+{
+  "vscode-color-picker.languages": [
+    "python",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "scss"
+  ],
+  "editor.colorDecoratorsLimit": 500
+}

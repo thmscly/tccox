@@ -1,0 +1,86 @@
+.main {
+  display: grid;
+  grid-auto-columns: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  gap: 1.5em;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.toDoButton {
+  padding: 5%;
+  width: 95%;
+  border-radius: 0.2rem;
+  border: none;
+  height: 100%;
+}
+
+.checkbox {
+  width: auto;
+  border-radius: 0.25rem;
+  height: 65%;
+}
+
+.addButton {
+  padding: 3%;
+  width: 75%;
+  place-self: center;
+  font-size: large;
+  background: #25a34a;
+}
+
+.main ul {
+  display: flex;
+  place-self: center;
+  width: 95%;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 4%;
+  list-style-type: none;
+}
+
+.main li {
+  width: 100%;
+}
+
+.listLabel {
+  display: grid;
+  grid-template-columns: 0.25fr 2fr 1fr 1fr 1fr;
+  align-items: center;
+  height: 3em;
+}
+
+.addTask input {
+  background: rgba(255, 255, 255, 0.93);
+  /* padding: 0.75rem; */
+  width: 100%;
+  height: 2.5rem;
+  font-size: large;
+  padding: 0.75%;
+  border-radius: 0.25rem;
+  place-self: center;
+}
+
+.addTask {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.info {
+  margin-top: 5%;
+}
+
+.listLabelInput {
+  background: rgba(255, 255, 255, 0.93);
+  /* padding: 0.75rem; */
+  width: 95%;
+  height: 125%;
+  padding: 0.75%;
+  border-radius: 0.25rem;
+  place-self: center;
+  font-family: inherit;
+}
