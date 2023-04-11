@@ -18,8 +18,8 @@ export default function About() {
             </div>
             <span className={utilStyles.aboutPara}>
                 <div>
-                    <p>I&apos;m a <em>Front-End Engineer</em> ,an Eagle Scout, a drummer, movie-lover, and all-around nerd and <span className={utilStyles.bigText}>I just graduated from <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a></em>.</span></p>
-                    <p>I&apos;ve been working hard over the past year becoming <em>Software Engineer</em>, and have learned a ton, but as anyone in dev will tell you, have an infinity left to master.</p>
+                    <p>Hey there, I&apos;m T.C. I&apos;m a <em>Front-End Engineer</em>, an Eagle Scout, a drummer, movie-lover, and all-around nerd and <span className={utilStyles.bigText}>I just graduated from <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a></em>.</span></p>
+                    <p>I&apos;ve been working hard over the past year becoming a <em>Software Engineer</em>, and have learned a ton, but as anyone in dev will tell you, have an infinity left to master.</p>
                     <div>
                         <h3 className={utilStyles.headingLg}>My Stack:</h3>
                         <ul className={utilStyles.stackList}>
@@ -34,7 +34,7 @@ export default function About() {
 
                     <p>The Meta course was React-heavy and taught me loads about not only React and state-management, but also client-side development, best practices, version control, and even computational theory, such as Time Complexity and circuitry.</p>
 
-                    <p>I&apos;d love to talk to you. Feel free to <em><Link href='/contact'>reach out!</Link></em> </p>
+                    <p>I&apos;d love to talk to you about just about anything. Feel free to <em><Link href='/contact'>reach out!</Link></em> </p>
                 </div>
                 {/* comfortable Techs */}
 
