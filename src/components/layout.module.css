@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 15%;
 }
 
 .emailButton {
@@ -49,6 +49,13 @@
     left: 1rem;
     padding-top: 0.5rem;
     background-size: 100% 3rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35%;
   }
 
   .emailButton button {
