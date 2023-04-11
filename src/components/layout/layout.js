@@ -8,7 +8,7 @@ import NavBar from './navBar';
 const name = 'T.C. Cox';
 export const siteTitle = 'T.C. Cox: Front-End Engineer';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, pageName }) {
     return (
         <div className={styles.container}>
             <NavBar />
@@ -57,6 +57,8 @@ export default function Layout({ children, home }) {
                                 {name}
                             </Link>
                         </h2>
+                        <h1 className={styles.header}>{pageName}</h1>
+                        <hr className={styles.rule} />
                     </>
                 )}
             </header>

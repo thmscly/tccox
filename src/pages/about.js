@@ -8,13 +8,10 @@ const techs = ['React', 'JavaScript', 'JSX', 'Next.js', 'CSS/HTML', 'Tailwind CS
 
 export default function About() {
     return (
-        <Layout>
+        <Layout pageName={"About"}>
             <Head>
                 <title>About</title>
             </Head>
-            <h1 className={utilStyles.heading2Xl}>
-                About Me
-            </h1>
             <div className={utilStyles.subHead}>
                 <iframe src="https://giphy.com/embed/xTiIzJSKB4l7xTouE8" width="240" height="108" ></iframe>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>

@@ -7,13 +7,11 @@ import styles from '@/styles/Home.module.css'
 
 export default function Projects() {
     return (
-        <Layout>
+        <Layout pageName={"Projects"}>
             <Head>
                 <title>Projects</title>
 
             </Head>
-            <h1>Some of My Work</h1>
-            <hr />
             <div className={styles.grid}>
                 <Link href="about" className={styles.card}>
                     <h2>

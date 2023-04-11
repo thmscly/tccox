@@ -9,14 +9,14 @@ const title = "Contact"
 
 export default function Contact() {
     return (
-        <Layout contact>
+        <Layout pageName={title}>
             <Head>
                 <title>{title}</title>
             </Head>
             <section className={utilStyles.headingXl}>
-                <h1>{title}</h1>
+
                 {/* <div className={styles.cursor} /> */}
-                <hr />
+
                 <h3>I&apos;m always happy to talk code, job opportunities, or even Lord of the Rings (if you have a few hours...)</h3>
             </section>
             <section className={`${styles.homeGrid}`}>

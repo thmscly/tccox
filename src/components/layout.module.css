@@ -57,3 +57,8 @@
     text-align: center;
   }
 }
+
+.rule {
+  place-self: center;
+  width: 90vw;
+}
