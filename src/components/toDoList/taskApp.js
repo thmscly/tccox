@@ -76,12 +76,12 @@ export default function TaskApp() {
 
 let nextId = 7;
 const initialTasks = [
-    { id: 0, time: <time>07:45</time>, text: 'Make Bottle with Vitamins/Fe', done: true },
-    { id: 1, time: <time>08:00</time>, text: 'Wake up baby', done: false },
-    { id: 2, time: <time>08:05</time>, text: 'Feed Bottle', done: false },
-    { id: 3, time: <time>08:15</time>, text: 'Change dipaer', done: false },
-    { id: 4, time: <time>08:30</time>, text: 'Put on braces', done: false },
-    { id: 5, time: <time>09:00</time>, text: 'Feed regular food', done: false },
-    { id: 6, time: <time>09:45</time>, text: 'Play Time', done: false },
-    { id: 7, time: <time>11:00</time>, text: 'Nap', done: false },
+    { id: 0, time: '07:45', text: 'Make Bottle with Vitamins/Fe', done: true },
+    { id: 1, time: '08:00', text: 'Wake up baby', done: false },
+    { id: 2, time: '08:05', text: 'Feed Bottle', done: false },
+    { id: 3, time: '08:15', text: 'Change dipaer', done: false },
+    { id: 4, time: '08:30', text: 'Put on braces', done: false },
+    { id: 5, time: '09:00', text: 'Feed regular food', done: false },
+    { id: 6, time: '09:45', text: 'Play Time', done: false },
+    { id: 7, time: '11:00', text: 'Nap', done: false },
 ];

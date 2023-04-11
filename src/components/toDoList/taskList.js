@@ -29,6 +29,7 @@ function Task({ task, onChange, onDelete }) {
         taskContent = (
             <>
                 <input
+                    className={toDoStyles.listLabelInput}
                     value={task.text}
                     onChange={e => {
                         onChange({
@@ -37,6 +38,7 @@ function Task({ task, onChange, onDelete }) {
                         });
                     }} />
                 <input
+                    className={toDoStyles.listLabelInput}
                     value={task.time}
                     onChange={e => {
                         onChange({
@@ -52,8 +54,10 @@ function Task({ task, onChange, onDelete }) {
     } else {
         taskContent = (
             <>
-                {task.text}
-                {task.time}
+                <div>
+                    {task.text}
+                </div>
+                <div>{task.time}</div>
                 <button className={toDoStyles.toDoButton} onClick={() => setIsEditing(true)}>
                     Edit
                 </button>

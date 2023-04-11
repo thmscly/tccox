@@ -12,7 +12,7 @@ export default function AddTask({ onAddTask }) {
                 onChange={e => setText(e.target.value)}
             />
             <input
-                placeholder="12:30"
+                placeholder='12:30'
                 value={time}
                 onChange={e => setTime(e.target.value)}
             />

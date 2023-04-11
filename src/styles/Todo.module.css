@@ -71,3 +71,14 @@
 .info {
   margin-top: 5%;
 }
+
+.listLabelInput {
+  background: rgba(255, 255, 255, 0.93);
+  /* padding: 0.75rem; */
+  width: 95%;
+  height: 125%;
+  padding: 0.75%;
+  border-radius: 0.25rem;
+  place-self: center;
+  font-family: inherit;
+}
