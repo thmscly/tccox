@@ -90,7 +90,7 @@
 
 .navBar {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: repeat(5, 18%);
   justify-items: center;
   justify-content: center;
   align-items: center;
@@ -134,6 +134,7 @@
     width: 100%;
     gap: 0.35em;
     padding: 2rem 0 1rem 0;
+    font-size: 0.75rem;
   }
 }
 
