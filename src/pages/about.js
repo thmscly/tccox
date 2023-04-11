@@ -25,7 +25,7 @@ export default function About() {
                     <p>I&apos;ve been working hard over the past year becoming <em>Software Engineer</em>, and have learned a ton, but as anyone in dev will tell you, have an infinity left to master.</p>
                     <div>
                         <h3 className={utilStyles.headingLg}>My Stack:</h3>
-                        <ul className={utilStyles.list}>
+                        <ul className={utilStyles.stackList}>
                             {techs.map((x, index) => {
                                 return <li key={index} className={utilStyles.listItem}>{x}</li>
                             })}

@@ -54,6 +54,26 @@
   border-radius: 0.5rem;
 }
 
+.stackList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  place-items: center;
+  gap: 1rem;
+  background: linear-gradient(
+    -45deg,
+    rgba(7, 24, 240, 0.3),
+    rgba(231, 60, 126, 0.3),
+    rgba(0, 3, 35, 0.3)
+  );
+  /* background: linear-gradient(-45deg, #0718f0cc, #e73c7eb3, #000323); */
+  animation: gradient 35s ease infinite;
+  padding: 2rem 0rem;
+  border-radius: 0.35rem;
+  background-size: 400% 400%;
+}
+
 .listItem {
   margin: 0 0 1.25rem;
   font-size: 1.15rem;
@@ -114,5 +134,17 @@
     width: 100%;
     gap: 0.35em;
     padding: 2rem 0 1rem 0;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
