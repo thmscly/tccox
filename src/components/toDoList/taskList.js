@@ -36,6 +36,14 @@ function Task({ task, onChange, onDelete }) {
                             text: e.target.value
                         });
                     }} />
+                <input
+                    value={task.time}
+                    onChange={e => {
+                        onChange({
+                            ...task,
+                            time: e.target.value
+                        });
+                    }} />
                 <button className={toDoStyles.toDoButton} onClick={() => setIsEditing(false)}>
                     Save
                 </button>
@@ -45,6 +53,7 @@ function Task({ task, onChange, onDelete }) {
         taskContent = (
             <>
                 {task.text}
+                {task.time}
                 <button className={toDoStyles.toDoButton} onClick={() => setIsEditing(true)}>
                     Edit
                 </button>
@@ -54,6 +63,7 @@ function Task({ task, onChange, onDelete }) {
     return (
         <label className={toDoStyles.listLabel}>
             <input
+                className={toDoStyles.checkbox}
                 type="checkbox"
                 checked={task.done}
                 onChange={e => {

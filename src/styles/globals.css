@@ -132,3 +132,10 @@ button:active {
     background-color: rgba(59, 59, 59, 0.28);
   }
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+  button {
+    font-size: small;
+  }
+}
