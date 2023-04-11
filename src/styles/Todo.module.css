@@ -16,6 +16,7 @@
   width: 95%;
   border-radius: 0.2rem;
   border: none;
+  height: 100%;
 }
 
 .checkbox {
@@ -50,6 +51,7 @@
   display: grid;
   grid-template-columns: 0.25fr 2fr 1fr 1fr 1fr;
   align-items: center;
+  height: 3em;
 }
 
 .addTask input {

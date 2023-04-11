@@ -53,8 +53,8 @@
   }
 
   .emailButton button {
-    font-size: 0.5rem;
-    padding: 3%;
+    font-size: 75%;
+    padding: 5%;
     text-align: center;
     box-shadow: -0.25rem -0.2rem 0.25rem #00000094 inset;
   }
