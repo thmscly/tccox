@@ -26,6 +26,7 @@
   font-size: 1rem;
   width: 90%;
   border: none;
+  box-shadow: -0.25rem -0.2rem 0.25rem #00000057 inset;
 }
 
 .nameHeader {
@@ -52,9 +53,10 @@
   }
 
   .emailButton button {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     padding: 3%;
     text-align: center;
+    box-shadow: -0.25rem -0.2rem 0.25rem #00000094 inset;
   }
 }
 
