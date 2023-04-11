@@ -13,7 +13,7 @@ export default function About() {
                 <title>About</title>
             </Head>
             <div className={utilStyles.subHead}>
-                <iframe src="https://giphy.com/embed/xTiIzJSKB4l7xTouE8" width="240" height="108" ></iframe>
+                <iframe src="https://giphy.com/embed/xTiIzJSKB4l7xTouE8" width="240" height="108" frameBorder='0' ></iframe>
                 <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
             </div>
             <span className={utilStyles.aboutPara}>
@@ -32,7 +32,9 @@ export default function About() {
                     <p>I&apos;ve always had a deep interest in creative writing, writing and playing music, creative outlets, as well as how things work - including people. So, with wide eyes, a desire to help, and a healthy amount of naivete, I figured early on I would become a psychologist.</p>
                     <p>After 4 years of psychology, I decided I did not, in fact, want to be a psychologist.</p>
 
-                    <p>The course was React-heavy and taught me loads about not only React and state-management, but also client-side development, best practices, version control, and even computational theory, such as Time Complexity and circuitry.</p>
+                    <p>The Meta course was React-heavy and taught me loads about not only React and state-management, but also client-side development, best practices, version control, and even computational theory, such as Time Complexity and circuitry.</p>
+
+                    <p>I&apos;d love to talk to you. Feel free to <em><Link href='/contact'>reach out!</Link></em> </p>
                 </div>
                 {/* comfortable Techs */}
 
