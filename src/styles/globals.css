@@ -91,10 +91,10 @@ hr {
 }
 
 button {
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 0.75rem 2.5rem 0.75rem 2.5rem;
   color: inherit;
   border-radius: 0.5rem;
-  background: #444440;
+  background: #f05e1fcc;
   font-family: inherit;
   transition-duration: 0.4s;
 }

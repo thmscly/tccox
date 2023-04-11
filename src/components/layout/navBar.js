@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import utilStyles from '../../styles/utils.module.css';
+import EmailButton from '../emailButton';
 
 function NavBar() {
     return (
@@ -10,6 +11,7 @@ function NavBar() {
                 <Link href="/about">About</Link>
                 <Link href="/projects">Projects</Link>
                 <Link href="/contact">Contact</Link>
+                <EmailButton />
             </nav>
         </>
     )
