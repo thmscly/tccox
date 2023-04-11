@@ -97,6 +97,7 @@ button {
   background: #f05e1fcc;
   font-family: inherit;
   transition-duration: 0.4s;
+  box-shadow: -0.25rem -0.2rem 0.25rem #00000057 inset;
 }
 
 a:hover,
@@ -105,10 +106,10 @@ button:hover {
 }
 
 button:hover {
-  color: #285;
   text-decoration: bold;
-  background: #999999;
+  background-color: rgba(5, 100, 163, 0.7);
   font-weight: bold;
+  box-shadow: -0.25rem -0.2rem 0.25rem #00000094 inset;
 }
 
 button:active {
@@ -130,6 +131,6 @@ button:active {
     background-color: rgba(164, 164, 164, 0.48);
   }
   100% {
-    background-color: rgbargbargba(59, 59, 59, 0.28);
+    background-color: rgba(59, 59, 59, 0.28);
   }
 }

@@ -21,10 +21,11 @@
 }
 
 .emailButton button {
-  padding: 4%;
+  padding: 5%;
   text-align: center;
   font-size: 1rem;
   width: 90%;
+  border: none;
 }
 
 .nameHeader {
@@ -52,7 +53,7 @@
 
   .emailButton button {
     font-size: 0.75rem;
-    padding: 20% 4% 2% 4%;
+    padding: 3%;
     text-align: center;
   }
 }
