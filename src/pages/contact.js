@@ -4,6 +4,9 @@ import Head from 'next/head';
 import Layout from '../components/layout/layout';
 import styles from '@/styles/Home.module.css'
 import utilStyles from '@/styles/utils.module.css'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import ChatIcon from '@mui/icons-material/Chat';
 
 const title = "Contact"
 
@@ -25,6 +28,7 @@ export default function Contact() {
                     <h2>
                         GitHub
                     </h2>
+                    <GitHubIcon sx={{ fontSize: 80 }} />
 
                 </Link>
 
@@ -32,6 +36,7 @@ export default function Contact() {
                     <h2>
                         LinkedIn
                     </h2>
+                    <LinkedInIcon sx={{ fontSize: 80 }} />
 
                 </Link>
 
@@ -39,6 +44,7 @@ export default function Contact() {
                     <h2>
                         Discord
                     </h2>
+                    <ChatIcon sx={{ fontSize: 80 }} />
 
                 </Link >
                 {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
