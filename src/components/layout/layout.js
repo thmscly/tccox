@@ -15,7 +15,7 @@ export default function Layout({ children, home, pageName }) {
             <Head>
                 <meta
                     name="description"
-                    content="A React Portfolio Site for Fron-End Engineer T.C. Cox"
+                    content="A React Portfolio Site for Front-End Engineer T.C. Cox"
                 />
 
                 <meta name="og:title" content={siteTitle} />
