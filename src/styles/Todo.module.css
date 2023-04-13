@@ -24,6 +24,8 @@
   width: auto;
   border-radius: 0.25rem;
   height: 65%;
+  max-height: 2rem;
+  max-width: auto;
 }
 
 .addButton {
