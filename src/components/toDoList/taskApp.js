@@ -74,7 +74,7 @@ export default function TaskApp() {
     );
 }
 
-let nextId = 7;
+let nextId = 8;
 const initialTasks = [
     { id: 0, time: '07:45', text: 'Make Bottle with Vitamins/Fe', done: true },
     { id: 1, time: '08:00', text: 'Wake up baby', done: false },

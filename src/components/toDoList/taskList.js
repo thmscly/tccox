@@ -55,7 +55,7 @@ function Task({ task, onChange, onDelete }) {
         taskContent = (
             <>
                 <div>
-                    {task.text}
+                    <p>{task.text}</p>
                 </div>
                 <div>{task.time}</div>
                 <button className={toDoStyles.toDoButton} onClick={() => setIsEditing(true)}>
