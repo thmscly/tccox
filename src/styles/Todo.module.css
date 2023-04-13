@@ -84,3 +84,9 @@
   place-self: center;
   font-family: inherit;
 }
+
+@media (prefers-color-scheme: dark) {
+  .addTask input {
+    color: black;
+  }
+}

@@ -115,11 +115,11 @@ button:active {
   background: #999;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-} */
+}
 
 @keyframes pulse {
   0% {
