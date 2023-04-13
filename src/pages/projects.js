@@ -37,7 +37,7 @@ export default function Projects() {
                         To-do App
                     </h2>
                     <p>
-                        I got a baby. How else am I supposed to keep up? Built using React&apos;s useRedcuer hook.
+                        I got a baby. How else am I supposed to keep up? Built using React&apos;s useReducer hook.
                     </p>
                 </Link >
 

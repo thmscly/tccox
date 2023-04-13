@@ -16,13 +16,16 @@
   width: 95%;
   border-radius: 0.2rem;
   border: none;
-  height: 100%;
+  /* height: 100%;
+  max-height: 3rem; */
 }
 
 .checkbox {
   width: auto;
   border-radius: 0.25rem;
   height: 65%;
+  max-height: 2rem;
+  max-width: auto;
 }
 
 .addButton {
@@ -51,7 +54,6 @@
   display: grid;
   grid-template-columns: 0.25fr 2fr 1fr 1fr 1fr;
   align-items: center;
-  height: 3em;
 }
 
 .addTask input {
@@ -83,4 +85,10 @@
   border-radius: 0.25rem;
   place-self: center;
   font-family: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  .addTask input {
+    color: black;
+  }
 }

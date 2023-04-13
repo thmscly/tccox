@@ -10,6 +10,7 @@ export default function AddTask({ onAddTask }) {
                 placeholder="Go flying"
                 value={text}
                 onChange={e => setText(e.target.value)}
+                maxLength={200}
             />
             <input
                 placeholder='12:30'
