@@ -7,6 +7,7 @@ import utilStyles from '@/styles/utils.module.css'
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import ChatIcon from '@mui/icons-material/Chat';
+import EmailIcon from '@mui/icons-material/Email';
 
 const title = "Contact"
 
@@ -20,7 +21,7 @@ export default function Contact() {
 
                 {/* <div className={styles.cursor} /> */}
 
-                <h3>I&apos;m always happy to talk code, job opportunities, or even Lord of the Rings (if you have a few hours...)</h3>
+                <h3>I&apos;m always happy to talk code, job opportunities, or even Lord of the Rings (if you have a few hours...).</h3>
             </section>
             <section className={`${styles.homeGrid}`}>
 
@@ -40,11 +41,19 @@ export default function Contact() {
 
                 </Link>
 
-                <Link href="https://discord.com/channels/@T.C.#3573" rel="noopener noreferrer" target="_blank" className={styles.homeCard}>
+                {/* <Link href="https://discord.com/channels/@T.C.#3573" rel="noopener noreferrer" target="_blank" className={styles.homeCard}>
                     <h2>
                         Discord
                     </h2>
                     <ChatIcon sx={{ fontSize: 80 }} />
+
+                </Link > */}
+
+                <Link href='mailto:thmscly@gmail.com' className={styles.homeCard}>
+                    <h2>
+                        Email
+                    </h2>
+                    <EmailIcon sx={{ fontSize: 80 }} />
 
                 </Link >
                 {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
