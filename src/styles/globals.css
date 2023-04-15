@@ -104,6 +104,10 @@ button:hover {
   cursor: pointer;
 }
 
+a:hover {
+  transition: color 0.2s, border 0.2s, transform 0.2s ease-in-out;
+}
+
 button:hover {
   text-decoration: bold;
   background-color: rgba(5, 100, 163, 0.7);
@@ -130,6 +134,12 @@ button:active {
   }
   100% {
     background-color: rgba(59, 59, 59, 0.28);
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    color: #33d661;
   }
 }
 
