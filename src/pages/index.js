@@ -51,7 +51,7 @@ export default function Home({ allPostsData }) {
             Contact
           </h2>
           <p>
-            I&apos;d love to hear from you!.
+            I&apos;d love to hear from you!
           </p>
         </Link>
         {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}
