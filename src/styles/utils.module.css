@@ -75,8 +75,12 @@
 }
 
 .listItem {
-  margin: 0 0 1.25rem;
+  /* margin: 0 0 1.25rem; */
   font-size: 1.15rem;
+}
+
+.stackList li {
+  padding: 1rem;
 }
 
 .lightText {
@@ -117,6 +121,33 @@
   width: 85%;
 }
 
+.aboutParaTop {
+  display: grid;
+  position: relative;
+  place-items: center;
+}
+
+.homeTop {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  justify-items: stretch;
+  align-items: center;
+  place-items: center;
+  gap: 0;
+  width: 75%;
+  place-self: center;
+  position: relative;
+  margin: 3%; */
+}
+
+.homeTop img {
+  float: right;
+}
+
 .aboutPara p {
   text-indent: 4rem;
   margin: 1.5rem 0 1.25rem 0;
@@ -136,6 +167,10 @@
     padding: 2rem 0 1rem 0;
     font-size: 0.75rem;
   }
+  /* .homeTop {
+    grid-template-columns: 3fr 1fr;
+    gap: 5%;
+  } */
 }
 
 @keyframes gradient {
