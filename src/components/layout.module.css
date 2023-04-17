@@ -23,10 +23,10 @@
 .emailButton button {
   padding: 3%;
   text-align: center;
-  width: 70%;
+  width: 90%;
   border: none;
   box-shadow: -0.25rem -0.2rem 0.25rem #00000057 inset;
-  border-radius: 15%;
+  border-radius: 7.5px;
 }
 
 .nameHeader {
@@ -61,10 +61,11 @@
 
   .emailButton button {
     font-size: 80%;
-    padding: 3%;
-    width: 72%;
+    padding: 2%;
+    width: 100%;
     text-align: center;
     box-shadow: -0.25rem -0.2rem 0.25rem #00000094 inset;
+    border-radius: 3px;
   }
 }
 

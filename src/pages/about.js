@@ -5,6 +5,7 @@ import Layout from '../components/layout/layout';
 import utilStyles from '../styles/utils.module.css'
 import LaunchIcon from '@mui/icons-material/Launch';
 
+
 const techs = ['React', 'JavaScript', 'JSX', 'Next.js', 'CSS/HTML', 'Tailwind CSS', 'UI/UX Design', 'Figma']
 
 export default function About() {

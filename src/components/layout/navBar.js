@@ -3,6 +3,7 @@ import Link from 'next/link';
 import utilStyles from '../../styles/utils.module.css';
 import EmailButton from '../emailButton';
 
+
 function NavBar() {
     return (
         <>

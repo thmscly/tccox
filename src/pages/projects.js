@@ -20,7 +20,6 @@ export default function Projects() {
                     <p>
                         A React App managing booking for a fictional restaurant. Capstone project for Meta&apos;s Front-End Developer Professional Certificate.
                     </p>
-                    <em><p>Score: 9/9</p></em>
                 </Link>
 
                 <Link href="https://github.com/thmscly/tccox" rel="noopener noreferrer" target="_blank" className={styles.card}>

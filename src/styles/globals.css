@@ -68,8 +68,8 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: #33d661;
+  text-decoration: underline;
 }
 
 h1 {
@@ -94,7 +94,7 @@ button {
   /* padding: 0.75rem 1.75rem 0.75rem 1.75rem; */
   color: white;
   border-radius: 0.175rem;
-  background: #f05e1fa1;
+  background: rgba(240, 94, 31, 0.8);
   font-family: inherit;
   transition-duration: 0.4s;
 }
@@ -105,7 +105,8 @@ button:hover {
 }
 
 a:hover {
-  transition: color 0.2s, border 0.2s, transform 0.2s ease-in-out;
+  transition: color 0.2s, border 0.2s, transform 0.2s, ease-in-out;
+  transition: font-size 0.2s, transform 0.2s, ease-in-out;
 }
 
 button:hover {
@@ -139,7 +140,8 @@ button:active {
 
 @media (hover: hover) and (pointer: fine) {
   a:hover {
-    color: #33d661;
+    color: #3df76f;
+    transform: scale(1.15);
   }
 }
 
