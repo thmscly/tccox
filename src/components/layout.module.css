@@ -12,12 +12,18 @@
   margin-top: 12%;
 }
 
+.pageLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12%;
+}
+
 .emailButton {
   /* margin: 2.5rem 0 0; */
   display: grid;
   place-self: center;
   align-items: center;
-  width: 100%;
 }
 
 .emailButton button {

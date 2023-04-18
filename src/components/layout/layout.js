@@ -44,9 +44,9 @@ export default function Layout({ children, home, pageName }) {
                             />
                         </Link> */}
                         <NavBar />
-                        {/* <Link href="/" className={styles.nameHeader}>
+                        {/* <Link href="/" className={styles.pageLogo}>
                             <Logo
-                                dimension={96}
+                                dimension={144}
                             />
                         </Link> */}
 
