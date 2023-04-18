@@ -23,7 +23,8 @@
 .emailButton button {
   padding: 3%;
   text-align: center;
-  width: 90%;
+  height: auto;
+  width: 75%;
   border: none;
   box-shadow: -0.25rem -0.2rem 0.25rem #00000057 inset;
   border-radius: 7.5px;
