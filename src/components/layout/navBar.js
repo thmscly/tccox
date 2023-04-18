@@ -4,13 +4,14 @@ import utilStyles from '../../styles/utils.module.css';
 import EmailButton from '../emailButton';
 import Logo from '../logo';
 
+const homeLink = <Link href="/"><Logo dimension={72} /></Link>
 
-function NavBar() {
+function NavBar({ home }) {
     return (
         <>
             <nav className={utilStyles.navBar}>
 
-                <Link href="/"><Logo dimension={72} /></Link>
+                {!home && homeLink}
                 <Link href="/about">About</Link>
                 <Link href="/projects">Projects</Link>
                 <Link href="/contact">Contact</Link>

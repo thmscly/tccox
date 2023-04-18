@@ -94,20 +94,19 @@
 }
 
 .navBar {
-  display: grid;
-  grid-template-columns: repeat(5, 18%);
+  display: flex;
   justify-items: center;
   justify-content: center;
   align-items: center;
   align-content: center;
   position: fixed;
   top: 0;
-  /* padding: 1.5rem; */
+  padding: 1% 5%;
   place-self: center;
-  gap: 1.5rem;
-  background: rgba(2, 2, 2, 1);
-  width: 85%;
-  /* background-size: 200%; */
+  gap: 6.5rem;
+  background: rgba(0, 0, 0, 0.9);
+
+  /* background-size: contain; */
   z-index: 1;
 }
 

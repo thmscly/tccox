@@ -25,7 +25,7 @@ export default function Layout({ children, home, pageName }) {
             <header className={styles.header}>
                 {home ? (
                     <>
-                        <NavBar />
+                        <NavBar home />
                         <Logo
                             dimension={144}
                         />
