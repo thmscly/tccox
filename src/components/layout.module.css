@@ -24,7 +24,7 @@
   padding: 3%;
   text-align: center;
   height: auto;
-  width: 75%;
+  width: 7rem;
   border: none;
   box-shadow: -0.25rem -0.2rem 0.25rem #00000057 inset;
   border-radius: 7.5px;
@@ -67,15 +67,10 @@
 
   .emailButton button {
     font-size: 80%;
-    width: 100%;
-    height: 2.5rem;
+    width: 3.5rem;
     text-align: center;
     box-shadow: -0.25rem -0.2rem 0.25rem #00000094 inset;
     border-radius: 3px;
-  }
-
-  .emailBtnIcon {
-    font-size: 1.25rem;
   }
 }
 
