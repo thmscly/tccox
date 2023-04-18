@@ -72,6 +72,7 @@
   padding: 2rem 0rem;
   border-radius: 0.35rem;
   background-size: 400% 400%;
+  text-align: center;
 }
 
 .listItem {
@@ -104,7 +105,7 @@
   padding: 1.5rem;
   place-self: center;
   gap: 1.5rem;
-  background: rgba(2, 2, 2, 0.8);
+  background: rgba(2, 2, 2, 1);
   width: 75%;
   background-size: 200%;
 }
