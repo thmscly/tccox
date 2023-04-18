@@ -84,12 +84,12 @@
 }
 
 .card span {
-  display: inline-block;
+  /* display: inline-block; */
   transition: transform 200ms;
 }
 
 .homeCard span {
-  display: inline-block;
+  /* display: inline-block; */
   transition: transform 200ms;
 }
 

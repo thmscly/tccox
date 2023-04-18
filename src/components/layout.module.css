@@ -29,6 +29,11 @@
   border-radius: 7.5px;
 }
 
+.emailBtnIcon {
+  font-size: 2rem;
+  color: white;
+}
+
 .nameHeader {
   position: fixed;
   top: -0.25rem;
@@ -66,6 +71,10 @@
     text-align: center;
     box-shadow: -0.25rem -0.2rem 0.25rem #00000094 inset;
     border-radius: 3px;
+  }
+
+  .emailBtnIcon {
+    font-size: 1.25rem;
   }
 }
 

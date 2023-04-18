@@ -108,6 +108,7 @@
   background: rgba(2, 2, 2, 1);
   width: 75%;
   background-size: 200%;
+  z-index: 1;
 }
 
 .subHead {
@@ -124,7 +125,7 @@
 
 .aboutParaTop {
   display: grid;
-  position: relative;
+
   place-items: center;
 }
 
