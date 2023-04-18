@@ -4,6 +4,10 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '@/lib/posts';
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
+import LaunchIcon from '@mui/icons-material/Launch';
+import Image from 'next/image';
+
+const a = "'"
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -20,11 +24,11 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingLg}>
-        <p>Meta&reg;-Certified Front-End Engineer{' '}</p>
-        {/* <div className={styles.cursor} /> */}
+      <p style={{ fontSize: '1.75rem', textAlign: 'center' }}>Meta&reg;-Certified Front-End Engineer{' '}</p>
 
-      </section>
+      {/* <div className={styles.cursor} /> */}
+
+
 
       <section className={`${styles.homeGrid}`}>
 
@@ -51,7 +55,7 @@ export default function Home({ allPostsData }) {
             Contact
           </h2>
           <p>
-            I&apos;d love to hear from you!.
+            I&apos;d love to hear from you!
           </p>
         </Link>
         {/* <h2 className={utilStyles.headingLg}>Blog</h2> */}

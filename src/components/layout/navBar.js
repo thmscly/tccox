@@ -2,12 +2,16 @@ import React from 'react'
 import Link from 'next/link';
 import utilStyles from '../../styles/utils.module.css';
 import EmailButton from '../emailButton';
+import Logo from '../logo';
 
-function NavBar() {
+const homeLink = <Link href="/"><Logo dimension={72} /></Link>
+
+function NavBar({ home }) {
     return (
         <>
             <nav className={utilStyles.navBar}>
-                <Link href="/">Home</Link>
+
+                {!home && homeLink}
                 <Link href="/about">About</Link>
                 <Link href="/projects">Projects</Link>
                 <Link href="/contact">Contact</Link>

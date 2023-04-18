@@ -4,6 +4,7 @@ import styles from '../layout.module.css';
 import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link';
 import NavBar from './navBar';
+import Logo from '../logo';
 
 const name = 'T.C. Cox';
 export const siteTitle = 'T.C. Cox: Front-End Engineer';
@@ -11,7 +12,7 @@ export const siteTitle = 'T.C. Cox: Front-End Engineer';
 export default function Layout({ children, home, pageName }) {
     return (
         <div className={styles.container}>
-            <NavBar />
+
             <Head>
                 <meta
                     name="description"
@@ -24,13 +25,9 @@ export default function Layout({ children, home, pageName }) {
             <header className={styles.header}>
                 {home ? (
                     <>
-                        <Image
-                            priority
-                            src="/images/profilepic.jpeg"
-                            className={utilStyles.borderCircle}
-                            height={144}
-                            width={144}
-                            alt=""
+                        <NavBar home />
+                        <Logo
+                            dimension={144}
                         />
                         <h1 className={utilStyles.heading2Xl}>{name}</h1>
                     </>
@@ -46,12 +43,14 @@ export default function Layout({ children, home, pageName }) {
                                 alt=""
                             />
                         </Link> */}
-                        <h2 className={styles.nameHeader}>
-                            <Link href="/" className={utilStyles.colorInherit}>
-                                {name}
-                            </Link>
-                        </h2>
-                        <h1 className={styles.header}>{pageName}</h1>
+                        <NavBar />
+                        {/* <Link href="/" className={styles.pageLogo}>
+                            <Logo
+                                dimension={144}
+                            />
+                        </Link> */}
+
+                        <h1 className={utilStyles.headingXl}>{pageName}</h1>
                         <hr className={styles.rule} />
                     </>
                 )}
