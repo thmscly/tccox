@@ -13,7 +13,7 @@ export default function Projects() {
 
             </Head>
             <div className={styles.grid}>
-                <Link href="https://github.com/thmscly/little-lemon.git" className={styles.card}>
+                <Link href="https://little-lemon-black.vercel.app/" rel="noopener noreferrer" target="_blank" className={styles.card}>
                     <h2>
                         Meta Capstone
                     </h2>
