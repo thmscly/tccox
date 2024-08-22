@@ -6,14 +6,14 @@ import utilStyles from '../styles/utils.module.css'
 import LaunchIcon from '@mui/icons-material/Launch';
 
 
-const techs = ['React', 'JavaScript', 'JSX', 'Next.js', 'CSS/HTML', 'Tailwind CSS', 'UI/UX Design', 'Figma']
+const techs = ['React', 'JavaScript', '.NET', 'Next.js', 'CSS/HTML', 'Tailwind CSS', 'SQL', 'MuleSoft']
 
 export default function About() {
     return (
         <Layout pageName={"About"}>
             <Head>
                 {/* <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script> */}
-                <title>About</title>
+                <title>About Me</title>
             </Head>
             <div className={utilStyles.subHead}>
                 <iframe src="https://giphy.com/embed/xTiIzJSKB4l7xTouE8" width="240" height="108" frameBorder='0' ></iframe>
@@ -21,8 +21,9 @@ export default function About() {
             </div>
             <span className={utilStyles.aboutPara}>
                 <div>
+                <h1>T.C.? That guy from Magnum PI?*</h1>
                     <span className={utilStyles.aboutParaTop}>
-                        <p>Hey there, I&apos;m T.C. I&apos;m a <em>Front-End Engineer</em>, an Eagle Scout, a drummer, movie-lover, and all-around nerd and <span className={utilStyles.bigText}>I just graduated from <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a></em>.</span></p>
+                        <p>Hey there. I&apos;m T.C. I&apos;m a <em>Software Developer</em>, an Eagle Scout, a drummer, movie-lover, a dad, and all-around nerd. I've been working as a Software Developer at CGI for the better part of a year, having started my journey in freelance <em>Web Development<em/> after graduating from <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a> program.</em>.</p>
                         {/* <p></p> */}
                         {/* <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="11932b7d-0a56-49e6-9961-86da1a1ce7a7" data-share-badge-host="https://www.credly.com"></div> */}
                         <a href="https://www.credly.com/badges/11932b7d-0a56-49e6-9961-86da1a1ce7a7/public_url" target='_blank' rel="noopener noreferrer">
@@ -40,7 +41,7 @@ export default function About() {
                         </a>
                     </span>
 
-                    <p>I&apos;ve been working hard over the past year becoming a <em>Software Engineer</em>, and have learned a ton, but as anyone in dev will tell you, have an infinity left to master.</p>
+                    <p>I&apos;ve been working hard over the several years becoming a <em>Software Engineer</em>, and have learned a ton, but as anyone in dev will tell you, have an infinity left to master.</p>
                     <div>
                         <h3 className={utilStyles.headingLg}>My Stack:</h3>
                         <ul className={utilStyles.stackList}>
@@ -49,13 +50,16 @@ export default function About() {
                             })}
                         </ul>
                     </div>
-                    <p>I have a BS in Psychology from the University of Tennessee at Chattanooga. I&apos;m currently working in healthcare as a pediatric Certified Medical Assistant.</p>
-                    <p>I&apos;ve always had a deep interest in creative writing, writing and playing music, creative outlets, as well as how things work - including people. So, with wide eyes, a desire to help, and a healthy amount of naivete, I figured early on I would become a psychologist.</p>
-                    <p>After 4 years of psychology, I decided I did not, in fact, want to be a psychologist.</p>
-
-                    <p>The Meta course was React-heavy and taught me loads about not only React and state-management, but also client-side development, best practices, version control, and even computational theory, such as Time Complexity and circuitry.</p>
-
-                    <p>I&apos;d love to talk to you about just about anything. Feel free to <em><Link href='/contact'>reach out!</Link></em> </p>
+                    <div>
+                        <h3 className={utilStyles.headingLg}>Other stuf you wanna know:</h3>
+                        <p>I have a BS in Psychology from the University of Tennessee at Chattanooga. I&apos;m currently working in healthcare as a pediatric Certified Medical Assistant.</p>
+                        <p>I&apos;ve always had a deep interest in creative writing, writing and playing music, creative outlets, as well as how things work - including people. So, with wide eyes, a desire to help, and a healthy amount of naivete, I figured early on I would become a psychologist.</p>
+                        <p>After 4 years of psychology, I decided I did not, in fact, want to be a psychologist.</p>
+    
+                        <p>The Meta course was React-heavy and taught me loads about not only React and state-management, but also client-side development, best practices, version control, and even computational theory, such as Time Complexity and circuitry.</p>
+    
+                        <p>I&apos;d love to talk to you about just about anything. Feel free to <em><Link href='/contact'>reach out!</Link></em> </p>
+                    </div>
                 </div>
                 {/* comfortable Techs */}
 
