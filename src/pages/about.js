@@ -23,7 +23,7 @@ export default function About() {
                 <div>
                 <h1>T.C.? That guy from Magnum PI?*</h1>
                     <span className={utilStyles.aboutParaTop}>
-                        <p>Hey there. I&apos;m T.C. I&apos;m a <em>Software Developer</em>, an Eagle Scout, a drummer, movie-lover, a dad, and all-around nerd. I've been working as a Software Developer at CGI for the better part of a year, having started my journey in freelance <em>Web Development</em> after graduating from <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a> program.</em>.</p>
+                        <p>Hey there. I&apos;m T.C. I&apos;m a <em>Software Developer</em>, an Eagle Scout, a drummer, movie-lover, a dad, and all-around nerd. I've been working as a Software Developer at CGI for the better part of a year, having started my journey in freelance Web Development after graduating from <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a> program.</em>.</p>
                         {/* <p></p> */}
                         {/* <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="11932b7d-0a56-49e6-9961-86da1a1ce7a7" data-share-badge-host="https://www.credly.com"></div> */}
                         <a href="https://www.credly.com/badges/11932b7d-0a56-49e6-9961-86da1a1ce7a7/public_url" target='_blank' rel="noopener noreferrer">
