@@ -52,7 +52,7 @@ export default function About() {
                     </div>
                     <div>
                         <h3 className={utilStyles.headingLg}>Other stuff you wanna know:</h3>
-                        <p>I have a BS in Psychology from the University of Tennessee at Chattanooga. I&apos;m currently working in healthcare as a pediatric Certified Medical Assistant.</p>
+                        <p>I have a BS in Psychology from the University of Tennessee at Chattanooga.</p>
                         <p>I&apos;ve always had a deep interest in creative writing, writing and playing music, creative outlets, as well as how things work - including people. So, with wide eyes, a desire to help, and a healthy amount of naivete, I figured early on I would become a psychologist.</p>
                         <p>After 4 years of psychology, I decided I did not, in fact, want to be a psychologist.</p>
     
