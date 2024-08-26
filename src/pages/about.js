@@ -21,7 +21,7 @@ export default function About() {
             </div>
             <span className={utilStyles.aboutPara}>
                 <div>
-                <h1>T.C.? That guy from Magnum PI?*</h1>
+                <p className={utilStyles.headingMd}>T.C.? That guy from Magnum PI?*</h1>
                     <span className={utilStyles.aboutParaTop}>
                         <p>Hey there. I&apos;m T.C. I&apos;m a <em>Software Developer</em>, an Eagle Scout, a drummer, movie-lover, a dad, and all-around nerd. I&apos;ve been working as a Software Developer at CGI for the better part of a year, having started my journey in freelance Web Development after graduating from <em> Meta&apos;s <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer?" target="_blank" rel="noopener noreferrer">Front-End Developer Professional Certification</a> program.</em>.</p>
                         {/* <p></p> */}
