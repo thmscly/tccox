@@ -59,6 +59,7 @@ export default function About() {
                         <p>The Meta course was React-heavy and taught me loads about not only React and state-management, but also client-side development, best practices, version control, and even computational theory, such as Time Complexity and circuitry.</p>
     
                         <p>I&apos;d love to talk to you about just about anything. Feel free to <em><Link href='/contact'>reach out!</Link></em> </p>
+                            <p className={utilStyles.smallText}><em>*he is not, in fact, that guy from Magnum PI.</em></p>
                     </div>
                 </div>
                 {/* comfortable Techs */}
